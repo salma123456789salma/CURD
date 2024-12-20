@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(67, 37, 37);
+}
+h1 {top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 40px;
+    position: fixed;
+    z-index: 1000;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px #000, 4px 4px #555;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+    text-shadow: 0 0 5px rgb(159, 19, 14), 0 0 10px rgb(185, 30, 30), 0 0 20px rgb(216, 36, 36), 0 0 40px rgb(228, 12, 12);
+    animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+h1:hover {
+    transform: rotate(-2deg) scale(1.1);
+}
+label{
+    font-size:18px;
+    font-weight:600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+input{
+    background-color: black;
+}
+#searchInput{
+    background-color: rgb(140, 114, 114);
+    width: 70%;
+    font-size:20px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top:10px;
+   
+ 
+}
+.formm{
+    width: 70%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.product img{
+   
+    height: 150px;
+    object-fit: contain;
+}
+#addBtn{
+    font-size:20px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(236, 178, 178);
+}
